@@ -54,7 +54,7 @@ public class Basics {
         Node d = new Node(3);
         Node e = new Node(15); // tail node
         a.next = b; // 5 -> 42  0 3 15
-//        System.out.println(a.next.date); // 42
+//        System.out.println(a.next.date); // 4 2
         b.next = c;// 5 -> 42 -> 0 3 15
         c.next = d; // 5 -> 42 -> 0 -> 3 15
         d.next = e;// 5 -> 42 -> 0 -> 3 -> 15
@@ -66,6 +66,7 @@ public class Basics {
         System.out.println(a.next.next.next.next.data);//15
         System.out.println(a.next.next.next.next.next);// null
 
+        // printing using loop
         Node temp = a;
         for(int i = 0 ; i < 5 ; i++){
             System.out.print(temp.data+" ");

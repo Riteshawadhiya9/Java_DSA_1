@@ -19,10 +19,9 @@ public class Linked_List_Implementation {
             size++;
         }
 
-        int pop(){
+        int pop() throws Exception{
             if(head == null){
-                System.out.println("Stack is Empty!!");
-                return -1;
+               throw new Exception("Stack UnderFlow Error!!");
             }
             int x = head.val;
             head = head.next;
@@ -67,8 +66,9 @@ public class Linked_List_Implementation {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         LLStack st = new LLStack();
+//        st.pop();  // it will throw an Error
         st.push(4);
 //        st.displayRev(); // 4
         st.display(); // 4

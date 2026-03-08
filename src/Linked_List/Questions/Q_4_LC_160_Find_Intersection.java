@@ -60,7 +60,7 @@ public class Q_4_LC_160_Find_Intersection {
 
     public static void main(String[] args) {
         Node a = new Node(1);
-        Node b= new Node(9);
+        Node b = new Node(9);
         Node c = new Node(1);
         Node d = new Node(3);
         Node e = new Node(2);

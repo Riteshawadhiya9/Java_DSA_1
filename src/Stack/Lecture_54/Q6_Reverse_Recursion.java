@@ -26,8 +26,11 @@ public class Q6_Reverse_Recursion {
         st.push(3);
         st.push(4);
         st.push(5);
-        System.out.println(st);;
+        int elem = 444;
+        System.out.println(st);
         reverse(st);
+        System.out.println(st);
+        pushAtBottom(st,elem);
         System.out.println(st);
     }
 }
