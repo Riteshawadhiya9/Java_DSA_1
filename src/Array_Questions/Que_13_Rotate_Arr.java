@@ -4,7 +4,7 @@ NOTE:- K acn be greater than n as well
  */
 package Array_Questions;
 import java.util.*;
-public class Que_13 {
+public class Que_13_Rotate_Arr {
 
     public static void printArray(int[] arr){
         for(int i = 0 ; i < arr.length ; i++){
