@@ -1,4 +1,4 @@
-package HashMap.Lecture_60.Lecture_61;
+package HashMap.Lecture_61;
 
 import java.util.HashMap;
 
