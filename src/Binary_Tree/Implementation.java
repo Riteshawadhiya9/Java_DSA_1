@@ -29,7 +29,7 @@ public class Implementation {
         c.left = f; c.right = g;
         display(a);
         System.out.println();
-        System.out.println("Size of the Tree is : "+size(a));
+        System.out.println("Size of the Tree is : "+size(a)); // size --> total no.of nodes
         System.out.println("Sum of the Tree is : "+Sum(a));
         System.out.println("Product of the Tree is : "+Product(a));
         System.out.println("Product of the Tree with for non-zero element : "+ProductNonZero(a));
