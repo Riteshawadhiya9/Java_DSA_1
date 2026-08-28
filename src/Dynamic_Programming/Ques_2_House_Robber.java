@@ -29,8 +29,10 @@ public class Ques_2_House_Robber {
         int pick = arr[i] + helper(i+2 , arr);
         int skip = helper(i+1 , arr);
 
-        int ans = Math.max(pick,skip);
-        dp[i] = ans;
-        return ans;
+//        int ans = Math.max(pick,skip);
+//        dp[i] = ans;
+//        return ans;
+
+        return dp[i] = Math.max(pick,skip);
     }
 }

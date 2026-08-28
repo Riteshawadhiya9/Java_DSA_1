@@ -33,7 +33,7 @@ public class RotateMatrix {
         }
     }
 
-    public static void rotate(int arr[][] ,int n){
+    public static void rotate(int [][]arr ,int n){
    transposeInplace(arr , n , n);
    for(int i = 0 ; i < n ; i++){
         reverse(arr[i]);
@@ -45,7 +45,7 @@ public class RotateMatrix {
         System.out.println("Enter no rows and column ");
         int r = sc.nextInt();
         int c = sc.nextInt();
-        int mat[][] = new int [r][c];
+        int [][] mat = new int [r][c];
         System.out.println("Enter "+r*c+" elements ");
         for(int i = 0 ; i < r ; i++){
             for(int j = 0 ; j < c ;j++){

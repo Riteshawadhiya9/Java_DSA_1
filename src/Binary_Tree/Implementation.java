@@ -1,6 +1,6 @@
 package Binary_Tree;
 
-public class Implementation {
+public class   Implementation {
      static class Node{
         int data;
         Node left;

@@ -1,6 +1,6 @@
 package Linked_List;
 
-public class Implementation {
+public class  Implementation {
     public static class Node {
         int data;
         Node next;

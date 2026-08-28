@@ -2,7 +2,7 @@ package Dynamic_Programming;
 
 import java.util.*;
 
-public class Ques_1_Fibonacci {
+public class Ques_1_Fibonacci_Memoization {
 
     static int[]dp;
 
