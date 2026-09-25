@@ -1,7 +1,7 @@
 package Linked_List.Questions;
 
 // For  only even Case find left and right middle both...?
-public class Q5_LC_876_Find_Middle {
+public class  Q5_LC_876_Find_Middle {
 
     public static Node findLeftMiddle(Node head){
         Node slow = head;

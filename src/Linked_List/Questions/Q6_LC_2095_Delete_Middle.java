@@ -22,7 +22,7 @@ public class Q6_LC_2095_Delete_Middle {
         return deletedNode;                            // 8️⃣ deleted node return
     }
 
-    public static Node deletelefttMiddle(Node head){
+    public static Node deleteleftMiddle(Node head){
 
         if (head == null || head.next == null) {       // 1️⃣ Empty ya single node list
             return null;
@@ -75,24 +75,24 @@ public class Q6_LC_2095_Delete_Middle {
         e.next = f;
         f.next = null;
 
-//        System.out.println("Original List :");
-//        printList(a);
-//
-//        Node deletedLeft = deletelefttMiddle(a);                     // 🔥 Left-middle delete
-//        System.out.println("Left Deleted Node : "+ deletedLeft.data + "\n" ); // ➡️ Output: 3
-//
-//        System.out.println("List After Deletion :");
-//        printList(a);
-
-//        // If you want to test right-middle deletion instead:
-
         System.out.println("Original List :");
         printList(a);
 
-        Node deletedRight = deleteRightMiddle(a);                    // 🔥 Right-middle delete
-        System.out.println("Right Deleted Node : "+ deletedRight.data + "\n" ); // ➡️ Output: 4
+        Node deletedLeft = deleteleftMiddle(a);                     // 🔥 Left-middle delete
+        System.out.println("Left Deleted Node : "+ deletedLeft.data + "\n" ); // ➡️ Output: 3
 
         System.out.println("List After Deletion :");
         printList(a);
+
+        // If you want to test right-middle deletion instead:
+
+//        System.out.println("Original List :");
+//        printList(a);
+//
+//        Node deletedRight = deleteRightMiddle(a);                    // 🔥 Right-middle delete
+//        System.out.println("Right Deleted Node : "+ deletedRight.data + "\n" ); // ➡️ Output: 4
+//
+//        System.out.println("List After Deletion :");
+//        printList(a);
     }
 }
